@@ -70,6 +70,10 @@ $ ./gradlew bootRun
 
 Verifica visitando el archivo del controlador en **`ExampleEntityController.java`**.
 
+Copia la coleccion con las peticiones ya cargadas en Postman haciendo click en este boton.
+
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/14824691-eb60370c-0638-4b7a-921f-b7710e17161b?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D14824691-eb60370c-0638-4b7a-921f-b7710e17161b%26entityType%3Dcollection%26workspaceId%3De400b4ff-44f7-497a-b774-03e6e73fabc1#?env%5BCredenciales%5D=W3sia2V5IjoidXNlcm5hbWUiLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0In0seyJrZXkiOiJwYXNzd29yZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6InNlY3JldCJ9XQ==)
+
 ### Como integro esta auditoria en mi proyecto?
 
 Revisa las clases `AuditorAwareImpl`, `AuditApplication`, `ExampleEntity` y `SecurityConfig` para conocer como integrar la auditoria y Spring Security a tu proyecto especifico. Encontraras comentarios que explican que hace cada cosa.
