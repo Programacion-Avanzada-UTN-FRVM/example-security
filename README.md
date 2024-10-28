@@ -24,7 +24,7 @@ $ pwd
 
 2. Crear un contenedor nuevo de MariaDB en Docker.
 ```bash
-$ docker volumes create volumen_db
+$ docker volume create volumen_db
 volumen_db
 $ docker run -d --name mariadb_container -e MARIADB_ROOT_PASSWORD=test1234 -v volumen_db:/var/lib/mysql -p 3306:3306 mariadb
 1012b9c0a63e7301ab88718cf80fa2860777ba1a3f46d055768e43e78d50cd24
